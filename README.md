@@ -20,9 +20,9 @@ Server side scaffold with Express-MongoDB. Scaffold supports production and deve
 	├── .env                	#  environment variables
 	├── .gitignore               	#  git commit ignore files
 	├── app.ts 			#  express app
-	├── Dockerfile			#  Docker build script
+	├── Dockerfile			#  docker build script
 	├── nodemon.json            	#  nodemon config for development mode
-	├── package.json              	#  Frontend dependencies
+	├── package.json              	#  backend dependencies
 	├── README.md                 	#  This file
 	├── tsconfig.json               #  typescript compiler config
 	└── tslint.json	                #  typescript linter config
