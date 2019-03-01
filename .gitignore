@@ -7,6 +7,8 @@ node_modules/
 ## package-lock
 package-lock.json
 
+npm-debug*
+
 ## visual studio code config
 .vscode/
 /.idea/

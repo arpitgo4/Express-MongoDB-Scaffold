@@ -1,6 +1,5 @@
 
 import express from 'express';
-import path from 'path';
 import bodyParser from 'body-parser';
 import logger from 'morgan';
 import cors from 'cors';
