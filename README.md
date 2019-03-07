@@ -17,7 +17,7 @@ Server side scaffold with Express-MongoDB. Scaffold supports production and deve
 	├── types          		#  typescript custom types
 	├── utils            		#  utility methods
 	├── .dockerignore           	#  docker ignore files
-	├── .env                	#  environment variables
+	├── .env                	#  environment variables (only for demo, don't commit in production)
 	├── .gitignore               	#  git commit ignore files
 	├── app.ts 			#  express app
 	├── Dockerfile			#  docker build script
@@ -65,7 +65,7 @@ docker build -t express-mongodb-scaffold .
 docker run --rm --name express-mongodb-scaffold -d -p 8080:8080 express-mongodb-scaffold
 
 # Open web browser at http://localhost:8080/api/v1/health
-# You will see a sample Single Page Application
+# You will see a health response from server
 ```
 
 ## Feedback
