@@ -7,7 +7,6 @@
 
 import chalk from 'chalk';
 
-const DB_CONN = require('../config/mongoose');
 import { mongoDBEventEmitter } from '../utils/event-emitters';
 
 

@@ -4,6 +4,9 @@ import bodyParser from 'body-parser';
 import logger from 'morgan';
 import cors from 'cors';
 
+import './config';
+import './models';
+
 import { 
     jwtHandler,
     errorHandler,

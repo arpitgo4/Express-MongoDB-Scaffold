@@ -19,7 +19,7 @@ const CONN_CONF = {
     bufferMaxEntries: 0
 };
 
-const connection = mongoose.connect(DB_CONN_URL, CONN_CONF, err => {
+const mongo_connection = mongoose.connect(DB_CONN_URL, CONN_CONF, err => {
     console.log(DB_CONN_URL);
     if (err)
         console.log(chalk.red(`[mongoose] error connecting to mongodb: ${err.message}`)); // @ts-ignore
@@ -28,6 +28,4 @@ const connection = mongoose.connect(DB_CONN_URL, CONN_CONF, err => {
 
 mongoose.Promise = global.Promise;
 
-module.exports = {
-    connection
-};
+export default mongo_connection;
